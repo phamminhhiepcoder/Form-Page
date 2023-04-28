@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>  
+    <meta charset="utf-8">
+    <title>Form đăng ký học</title>
+    <script src="jquery-3.6.4.slim.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body style="background-color: aqua">
+    <div id="parent">
+        <form id="form_login" style="border-style: solid;">
+            <label>Tên đăng nhập</label><br>
+            <input type="text" id="tenDangNhap" name="tenDangNhap" placeholder="VD: phamminhhiep"> <br>
+            <label>Mật khẩu</label><br>
+            <input type="text" id="matKhau" name="matKhau" placeholder="VD: 12345"> <br>
+            <label>Số điện thoại</label><br>
+            <input type="number" id="soDienThoai" name="soDienThoai" placeholder="VD: 0928123415"> <br> 
+            <label>Email</label><br>
+            <input type="email" id="email" name="email" placeholder="VD: vmu@gmail.com"> <br>   
+            <label>Trình độ</label>
+            <select name="trinhDo" id="trinhDo">
+                  <option value="daiHoc">Đại học</option>
+                  <option value="caoDang">Cao đẳng</option>  
+            </select> <br>
+            <label>Giới tính</label> <br>
+            <input type="radio" name="value"> Nam
+            <input type="radio" name="value"> Nữ
+            <br>
+             <button type="submit">Đăng ký</button>
+             <button type="reset">Điền lại thông tin</button>
+        </form>
+    </div>
+</body>

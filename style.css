@@ -1,0 +1,30 @@
+form {
+    width: 100%;
+    max-width: 400px;
+}
+form select {
+       width: 30%; 
+}
+form input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+form input:focus {
+    outline: 1px solid blue;
+}
+form label {
+    font-weight: bold;
+}
+form[type=checkbox], form[type=radio] {
+    width: unset;
+} 
+#parent {
+    display: table;
+    width: 100%;
+ }
+ #form_login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+ }
